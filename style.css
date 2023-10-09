@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Serif+Georgian:wght@300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+:root{
+    --yellow:#FFAE31;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+    /* transition: all 5.s ease; */
+}
+html{
+    font-size: 70%;
+    overflow-x: hidden;
+    scroll-padding-top: 6rem;
+    scroll-behavior: smooth;
+}
+/* the navigation bar starts here */
+.bg{
+    background-color: #EFEFEF;
+    margin-top: -20px;
+    margin-bottom: -7px;
+}
+.all-body{
+    background: rgba(255, 174, 49, 5%);
+}
+.navbar{
+    padding: 0;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+nav .nav-item a:hover{
+    color: var(--yellow) !important;
+}
+ /* the navigation bar ends here */
+.my-img{
+    height: 550px !important;
+}
+.font-text{
+    text-transform: capitalize;
+    padding: 2rem;
+}
+.text-warning{
+    font-weight: 500;
+}
+.donate{
+    font-weight: bolder !important;
+    font-size: 100px;
+}
+@media only screen and (max-width: 768px){
+    .about-text p{
+        line-height: 1.2;
+        font-size: 14px !important;
+    }
+    .carousel-item img{
+        width: 100%;
+        height: 400px !important;
+    }
+    .carousel-caption p{
+        padding-bottom: 1px !important;
+        line-height: 1.6;
+    }
+    .carousel-caption h2{
+        padding-top: 2px !important;
+        margin-bottom: 5px !important;
+    }
+    .links{
+        display: flex;
+        flex-direction: column !important;
+        margin-top: 4rem !important;
+        margin-bottom: 1rem !important;
+    }
+    .buttons{
+        margin: -2rem !important;
+        padding: -200px !important;
+    }
+    .card{
+        width: 19rem !important;
+        margin: auto !important;
+    }
+    div.activity-one #mySlider1 div.carousel-inner div.carousel-item img{
+        width: 100%;
+        height: 200px;
+    }
+    div#myDonateCarousel div.carousel-inner div.carousel-item div.carousel-caption h2{
+    font-size: 45px !important;
+    }
+}
+@media only screen and (min-width:768px) {
+    .section-activities{
+        width: 70% !important;
+    }
+    
+}
+.testimonials{
+    margin: 50px auto;
+}
+.testimonials .row{
+    margin-top: 70px;
+}
+.col-md-4{
+    margin: 4px auto;
+    margin-bottom: 50px;
+}
+.profile{
+    padding: 20px;
+}
+.profile img{
+    top: -65px;
+    position: relative;
+    left: calc(50% -50%);
+    border: 2px solid #EFEFEF;
+}
+.user{
+    margin-bottom: -50px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.profile h3{
+    font-size: 14px;
+}
+div.team{
+    margin: 8rem auto !important;
+}
+.team .member{
+    margin-bottom: 15px;
+    overflow: hidden;
+    border-radius: 5px;
+    background: #fff;
+}
+.team .member .member-img{
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+.team .member .social{
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    right: 0;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+    text-align: center;
+}
+.team .member:hover .social{
+    opacity: 1;
+    bottom: 15px;
+} 
+.team .member .social img:hover{
+    transform:scale(1.2);
+}
+.team .member .member-info{
+    padding: 20px;
+}
+.team .member .member-info h4{
+    margin-bottom: 5px;
+} 
+footer .container .row .ul-links a:hover{
+    color: var(--yellow) !important;
+}
+
+/* activities page */
